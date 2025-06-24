@@ -3,62 +3,71 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Salin P S | Portfolio</title>
+  <title>SALIN P S | Portfolio</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header>
-    <img src="profile.jpg" alt="Salin P S" class="profile-img" />
-    <h1>Salin P S</h1>
-    <p>Electrical & Electronics Engineering Student</p>
+  <header class="header">
+    <h1>SALIN P S</h1>
+    <p>B.Tech in Electrical & Electronics Engineering</p>
+    <div class="contact">
+      <a href="tel:+918891354512">📞 8891354512</a>
+      <a href="mailto:salinps73@gmail.com">📧 salinps73@gmail.com</a>
+      <a href="https://github.com/salinps" target="_blank">💻 GitHub</a>
+    </div>
   </header>
 
-  <nav>
-    <a href="#about">About</a>
-    <a href="#skills">Skills</a>
-    <a href="#projects">Projects</a>
-    <a href="#contact">Contact</a>
-  </nav>
-
-  <section id="about" class="fade-in">
+  <section class="section" id="summary">
     <h2>About Me</h2>
-    <p>I’m currently pursuing B.Tech in Electrical and Electronics Engineering at Jyothi Engineering College. I'm passionate about embedded systems and automation.</p>
+    <p>I am a third-year B.Tech student at Jyothi Engineering College with a passion for Electronics and Web development. I actively participate in workshops and hackathons, constantly learning and improving my skills.</p>
   </section>
 
-  <section id="skills" class="fade-in">
-    <h2>Skills</h2>
+  <section class="section" id="internship">
+    <h2>Internship - Kerala State Electricity Board (KSEB)</h2>
     <ul>
-      <li>Embedded Systems</li>
-      <li>Arduino & IoT</li>
-      <li>HTML, CSS, JavaScript</li>
-      <li>MATLAB & Simulink</li>
-      <li>ASP.NET Core (Beginner)</li>
+      <li>Hands-on experience in electrical power systems</li>
+      <li>Observed substations, transformers, and transmission lines</li>
+      <li>Learned load management, safety, and fault handling</li>
     </ul>
   </section>
 
-  <section id="projects" class="fade-in">
+  <section class="section" id="education">
+    <h2>Education</h2>
+    <p><strong>B. Tech</strong> - Jyothi Engineering College<br/>
+    APJ Abdul Kalam Technological University<br/>
+    08/2023 - 05/2027</p>
+  </section>
+
+  <section class="section" id="skills">
+    <h2>Skills</h2>
+    <div class="card-container">
+      <div class="card">ASP.NET</div>
+      <div class="card">ASP.NET Core</div>
+      <div class="card">AutoCAD Electrical</div>
+      <div class="card">C/C++</div>
+      <div class="card">Java</div>
+      <div class="card">HTML</div>
+      <div class="card">CSS</div>
+      <div class="card">JavaScript</div>
+    </div>
+  </section>
+
+  <section class="section" id="projects">
     <h2>Projects</h2>
-    <div class="project">
-      <img src="project1.jpg" alt="Smart Sunglasses" class="project-img"/>
-      <h3>Smart Sunglasses for the Blind</h3>
-      <p>Obstacle-detection wearable using Arduino and ultrasonic sensors.</p>
-    </div>
-    <div class="project">
-      <img src="project2.jpg" alt="Wave Generator" class="project-img"/>
-      <h3>Sawtooth Wave Generator</h3>
-      <p>Lab project with specific timing characteristics for waveform generation.</p>
+    <div class="card-container">
+      <div class="card">
+        <h3>Obstacle Detection Smart Glasses</h3>
+        <p>Assistive tech for visually impaired using sensors and alerts.</p>
+      </div>
+      <div class="card">
+        <h3>EcoBot</h3>
+        <p>AI-powered autonomous vehicle for waste segregation and collection.</p>
+      </div>
     </div>
   </section>
 
-  <section id="contact" class="fade-in">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:salinps73@gmail.com">salinps73@gmail.com</a></p>
-    <p>Phone: 8891354512</p>
-    <p><a href="https://www.linkedin.com/in/salin-p-s-a80564361" target="_blank">LinkedIn</a></p>
-  </section>
-
-  <footer>
-    <p>© 2025 Salin P S. All rights reserved.</p>
+  <footer class="footer">
+    <p>© 2025 SALIN P S | Portfolio</p>
   </footer>
 
   <script src="script.js"></script>
