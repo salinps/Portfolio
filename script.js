@@ -1,13 +1,6 @@
-// Smooth scroll
-document.querySelectorAll('nav a').forEach(link => {
-  link.addEventListener('click', e => {
-    e.preventDefault();
-    const target = document.querySelector(link.getAttribute('href'));
-    target.scrollIntoView({ behavior: 'smooth' });
-  });
-});
+// Fade-in sections on scroll
+const sections = document.querySelectorAll('.section');
 
-// Fade-in animation on scroll
 const observer = new IntersectionObserver(entries => {
   entries.forEach(entry => {
     if (entry.isIntersecting) {
@@ -18,6 +11,6 @@ const observer = new IntersectionObserver(entries => {
   threshold: 0.1
 });
 
-document.querySelectorAll('.fade-in').forEach(section => {
+sections.forEach(section => {
   observer.observe(section);
 });
